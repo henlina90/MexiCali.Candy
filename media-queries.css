@@ -1,0 +1,149 @@
+/* XSMALL & SMALL DEVICES   */
+@media (min-width: 320px) and (max-width: 598px) {
+  body {
+    margin-right: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+  }
+
+  .about-section {
+    background-size: 45%;
+  }
+
+  .icon-bar a {
+    font-size: 30px;
+  }
+
+  .product-section {
+    padding: 0.5em;
+  }
+
+  .name,
+  .price {
+    font-size: 1em;
+  }
+
+  .images {
+    padding-left: 0.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .icon-bar {
+    top: 3%;
+  }
+
+  .title {
+    font-size: 0.8em;
+  }
+
+  .order {
+    font-size: 1.3em;
+  }
+
+  .instagram-section {
+    font-size: 0.8em;
+  }
+
+  .glow {
+    font-size: 1.3em;
+  }
+
+  hr.rounded {
+    border-top: 5px solid #272727;
+  }
+}
+
+/*   SMALL TO MEDIUM DEVICES   */
+@media (min-width: 599px) and (max-width: 900px) {
+  .about-section {
+    background-size: 35%;
+  }
+
+  .product-section {
+    padding: 0.8em;
+  }
+
+  .icon-bar a {
+    font-size: 28px;
+  }
+
+  .icon-bar {
+    top: 4.5%;
+  }
+}
+
+/*   DESKTOP  */
+@media (min-width: 901px) {
+  body {
+    padding-right: 5em;
+    padding-left: 5em;
+  }
+
+  .about-section {
+    background-size: 15%;
+    font-size: 0.5em;
+  }
+
+  .icon-bar a {
+    font-size: 40px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .product-section {
+    padding: 1em;
+  }
+
+  .price {
+    font-size: 0.8em;
+  }
+
+  .images {
+    padding-left: 2.5em;
+  }
+
+  .icon-bar {
+    top: 17%;
+  }
+
+  .glow {
+    font-size: 25px;
+  }
+
+  hr.rounded {
+    border-top: 6px solid #272727;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .column {
+    float: left;
+    width: 16%;
+    margin-bottom: 16px;
+    padding: 0 4px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

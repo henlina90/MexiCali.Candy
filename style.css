@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #b10f0f;
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.about-section {
+  overflow: hidden;
+  background-color: #000000;
+  background-image: url("./img/mexicali.png");
+  height: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1em;
+}
+
+/* IG BAR */
+
+.icon-bar {
+  position: fixed;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #b10f0f;
+}
+
+.icon-bar a:hover {
+  background-color: #272727;
+  color: #b10f0f !important;
+}
+
+.instagram {
+  background: #1fd807;
+  color: #000000 !important;
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fefefe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #fdfdfd;
+} */
+
+a {
+  text-decoration: none;
+  color: #b10f0f;
+}
+
+a:hover {
+  color: #b10f0f !important;
+  font-size: 1.2em;
+  transition: all 0.3s ease;
+}
+
+.fa {
+  font-weight: 600;
+}
+
+hr.rounded {
+  border-radius: 3px;
+}
+
+.hello-section {
+  background-color: #dddddd;
+}
+
+.glow {
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(212, 2, 2), 0 0 20px rgb(165, 4, 4),
+      0 0 30px #d30000;
+  }
+}
+
+.product-section {
+  text-align: center;
+  background-color: #dddddd;
+  color: #000000;
+}
+
+.card {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 1px;
+  background-color: #b10f0f;
+  border-radius: 10px;
+}
+
+.name {
+  background-color: #dddddd;
+  border-radius: 2px;
+}
+
+.price {
+  text-align: left;
+  font-weight: 600;
+}
+
+.instagram-section {
+  padding: 0.8em;
+  background-color: #dddddd;
+}
+
+.container {
+  padding: 0 5px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  margin: 1em;
+  color: #000000;
+  font-family: "Special Elite", cursive;
+  padding: 0.8em;
+}
+
+.insta {
+  color: #000000;
+  background-color: #b10f0f;
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 0.2em;
+}
+
+.hello {
+  float: left;
+  max-width: 20%;
+  padding: 1px;
+  max-height: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.xoxo::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  color: #b10f0f;
+  height: 5em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
