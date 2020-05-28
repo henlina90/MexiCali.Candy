@@ -1,7 +1,9 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  line-height: 1.2em;
+  letter-spacing: 0.8px;
   margin: 0;
-  background-color: #b10f0f;
+  background-color: #272727;
   text-align: center;
 }
 
@@ -15,14 +17,12 @@ html {
   box-sizing: inherit;
 }
 
-.about-section {
+header {
   overflow: hidden;
   background-color: #000000;
   background-image: url("./img/mexicali.png");
-  height: 30%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 1em;
 }
 
 /* IG BAR */
@@ -37,18 +37,18 @@ html {
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   transition: all 0.3s ease;
-  color: #b10f0f;
+  color: #c51212;
 }
 
 .icon-bar a:hover {
   background-color: #272727;
-  color: #b10f0f !important;
+  color: #c51212 !important;
 }
 
 .instagram {
-  background: #1fd807;
+  background: #c51212;
   color: #000000 !important;
 }
 
@@ -59,26 +59,21 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #fefefe;
+  background: #f3f3f3;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #2e2e2e;
 }
 
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: #fdfdfd;
-} */
-
 a {
   text-decoration: none;
-  color: #b10f0f;
+  color: #c51212;
 }
 
 a:hover {
-  color: #b10f0f !important;
-  font-size: 1.2em;
+  color: #c51212 !important;
+  font-size: 1.1em;
   transition: all 0.3s ease;
 }
 
@@ -88,14 +83,14 @@ a:hover {
 
 hr.rounded {
   border-radius: 3px;
+  margin: 0;
 }
 
 .hello-section {
-  background-color: #dddddd;
+  background-color: #f3f3f3;
 }
 
 .glow {
-  font-size: 25px;
   color: #000000;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -106,40 +101,47 @@ hr.rounded {
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px rgb(212, 2, 2), 0 0 20px rgb(165, 4, 4),
-      0 0 30px #d30000;
+      0 0 30px #c51212;
   }
 }
 
 .product-section {
   text-align: center;
-  background-color: #dddddd;
+  background-color: #f0f0f0;
   color: #000000;
+}
+
+img {
+  max-width: 100%;
 }
 
 .card {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 1px;
-  background-color: #b10f0f;
+  /* margin: 1px; */
+  background-color: #d1d1d1;
   border-radius: 10px;
+  background-image: url("./img/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 90%;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 600;
 }
 
 .name {
-  background-color: #dddddd;
-  border-radius: 2px;
+  background-color: #fdfdfd;
+  opacity: 70%;
 }
 
 .price {
   text-align: left;
-  font-weight: 600;
+  margin-left: 10px;
+  height: 0.5em;
 }
 
 .instagram-section {
   padding: 0.8em;
-  background-color: #dddddd;
-}
-
-.container {
-  padding: 0 5px;
+  background-color: #f0f0f0;
 }
 
 .container::after,
@@ -150,21 +152,20 @@ hr.rounded {
 }
 
 .title {
-  margin: 1em;
   color: #000000;
-  font-family: "Special Elite", cursive;
+  font-family: "Love Ya Like A Sister", cursive;
   padding: 0.8em;
 }
 
 .insta {
   color: #000000;
-  background-color: #b10f0f;
+  background-color: #c51212;
   border-radius: 30px;
   font-weight: 600;
   padding: 0.2em;
 }
 
-.hello {
+/* .hello {
   float: left;
   max-width: 20%;
   padding: 1px;
@@ -178,13 +179,13 @@ hr.rounded {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
 footer {
   background-color: #000000;
   padding: 10px;
   text-align: center;
-  color: #b10f0f;
+  color: #c51212;
   height: 5em;
   text-transform: uppercase;
   font-size: 0.8em;
